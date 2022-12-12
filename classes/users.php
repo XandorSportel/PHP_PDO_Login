@@ -3,7 +3,7 @@
     /**
      * PHP PDO Login System
      * 
-     * @see https://github.com/XandorSportel/PHP-PDO-Login-System
+     * @see https://github.com/XandorSportel/PHP_PDO_Login
      * @author Xandor Sportel
      * 
      */
