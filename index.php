@@ -1,10 +1,11 @@
 <?php
 
+    // Check if session is started
     if (session_id() == "") session_start();
+    // Check if user is logged in
     if (isset($_SESSION["userid"])) header("Location: dashboard.php");
 
-    var_dump($_SESSION);
-
+    // Require the user class.
     require_once "classes/users.php";
 
     // Create a new user object.

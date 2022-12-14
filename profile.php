@@ -1,8 +1,11 @@
 <?php
 
+    // Check if session is started
     if (session_id() == "") session_start();
+    // Check if user is logged in
     if (empty($_SESSION["userid"])) header("Location: ./");
 
+    // Require the database class.
     require_once "classes/database.php";
 
     // Create a new database object.
